@@ -1,0 +1,29 @@
+{
+  "source": {
+      "include": [
+          "../README.md",
+          "app.js",
+          "controller/assetDB-json.js",
+          "controller/iota.js",
+          "controller/key.js",
+          "controller/tracer.js",
+          "controller/transaction.js",
+          "model/auditEntry.js",
+          "model/mamOptions.js",
+          "routes/agent.js",
+          "routes/index.js"
+      ]
+  },
+  "opts": {
+      "destination": "docs/gen",
+      "recurse": true,
+      "pedantic": true
+  },
+  "templates": {
+      "systemName": "DBoM Iota Agent for Node.js",
+      "theme": "cosmo"
+  },
+  "tags": {
+      "allowUnknownTags": false
+  }
+}

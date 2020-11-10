@@ -1,0 +1,12 @@
+{
+  "all": true,
+  "exclude": [
+    "controller/tracer.js",
+    "coverage/**",
+    "utils/logging.js",
+    "test/**",
+    "test-helpers/**",
+    "docs/**",
+    "example/**"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "iota-agent",
+  "version": "0.0.0",
+  "description": "Sample implementation of the IOTA agent for DBoM",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "./node_modules/.bin/nyc ./node_modules/.bin/mocha --timeout=1200000 --exit && npx nyc report --reporter=html",
+    "test-jenkins": "./node_modules/.bin/cross-env JUNIT_REPORT_PATH=./report.xml ./node_modules/.bin/nyc ./node_modules/.bin/mocha --colors --reporter mocha-jenkins-reporter --timeout=1200000 --exit && npx nyc report --reporter=html",
+    "generate-docs": "./node_modules/.bin/jsdoc -c ./docs/jsdoc.json"
+  },
+  "dependencies": {
+    "@iota/converter": "^1.0.0-beta.23",
+    "@iota/core": "^1.0.0-beta.30",
+    "@iota/mam": "^0.7.3",
+    "cookie-parser": "~1.4.5",
+    "debug": "~4.1.1",
+    "express": "~4.17.1",
+    "express-winston": "^4.0.3",
+    "jaeger-client": "^3.18.0",
+    "lowdb": "^1.0.0",
+    "node-cache": "^5.1.1",
+    "opentracing": "^0.14.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cross-env": "^7.0.2",
+    "decache": "^4.6.0",
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jsdoc": "^3.6.5",
+    "mocha": "^8.1.2",
+    "mocha-jenkins-reporter": "^0.4.5",
+    "mocha-prepare": "^0.1.0",
+    "mocha-prepare-promise": "0.0.2",
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.3"
+  }
+}
