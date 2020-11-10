@@ -23,7 +23,7 @@ An example agent that uses IOTA for persisted storage and exposes the CQA (Commi
 
 ### API
 
-Latest OpenAPI Specification for this API is available on the [[api-specs repository](https://github.com/DBOMproject/deployment/blob/master/api-specs/gateway)](../openapi/agent)
+Latest OpenAPI Specification for this API is available on the [api-specs repository](https://github.com/DBOMproject/deployment/blob/master/api-specs/agent)
 
 ### Configuration
 
@@ -87,7 +87,7 @@ Given the current implementation of the example agent, there are a few limitatio
 
 If you have any queries on iota-agent, feel free to reach us on any of our [communication channels](https://github.com/DBOMproject/community/blob/master/COMMUNICATION.md) 
 
-If you have questions, concerns, bug reports, etc, please file an issue in this repository's [issue tracker](https://github.com/DBOMproject/node-sdk/issues).
+If you have questions, concerns, bug reports, etc, please file an issue in this repository's [issue tracker](https://github.com/DBOMproject/iota-agent/issues).
 
 ## Getting Involved
 
