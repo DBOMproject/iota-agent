@@ -15,9 +15,10 @@
       ]
   },
   "opts": {
-      "destination": "docs/gen",
-      "recurse": true,
-      "pedantic": true
+    "destination": "docs/gen",
+    "recurse": true,
+    "pedantic": true,
+    "template": "./node_modules/minami"
   },
   "templates": {
       "systemName": "DBoM Iota Agent for Node.js",

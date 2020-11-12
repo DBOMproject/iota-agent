@@ -54,7 +54,7 @@ Please refer to this [link](https://docs.iota.org/docs/compass/1.0/overview) to 
 
 ## Helm Deployment
 
-Instructions for deploying the database-agent using helm charts can be found [here](https://github.com/DBOMproject/deployment/blob/master/charts/iota-agent)
+Instructions for deploying the database-agent using helm charts can be found [here](https://github.com/DBOMproject/deployments/tree/master/charts/iota-agent)
 ## Multi-Node Channel Support
 
 With the default IOTA agent, sharing channel information between 2+ nodes is currently shared by manually copying over that channel configuration to the necessary nodes. This method currently supports the following channel access abilities.
@@ -80,8 +80,6 @@ Given the current implementation of the example agent, there are a few limitatio
 - Cannot share same db file
   - This example agent uses lowdb which is local
     - Option to use a different db with multi-node access controls
-
-#### A possible solution to deal with these limitations is provided as an example [here](./src/example/multi-node-channels/README.md)
 
 ## Getting Help
 
