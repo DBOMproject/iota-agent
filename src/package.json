@@ -11,7 +11,7 @@
     "generate-docs": "./node_modules/.bin/jsdoc -c ./docs/jsdoc.json"
   },
   "dependencies": {
-    "@iota/converter": "^1.0.0-beta.23",
+    "@iota/converter": "^1.0.0-beta.30",
     "@iota/core": "^1.0.0-beta.30",
     "@iota/mam": "^0.7.3",
     "cookie-parser": "~1.4.5",
