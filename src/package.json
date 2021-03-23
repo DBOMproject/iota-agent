@@ -18,7 +18,7 @@
     "debug": "~4.1.1",
     "express": "~4.17.1",
     "express-winston": "^4.0.3",
-    "jaeger-client": "^3.18.0",
+    "jaeger-client": "^3.18.1",
     "lowdb": "^1.0.0",
     "node-cache": "^5.1.2",
     "opentracing": "^0.14.4",
