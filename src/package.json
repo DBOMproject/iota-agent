@@ -20,7 +20,7 @@
     "express-winston": "^4.0.3",
     "jaeger-client": "^3.18.0",
     "lowdb": "^1.0.0",
-    "node-cache": "^5.1.1",
+    "node-cache": "^5.1.2",
     "opentracing": "^0.14.4",
     "winston": "^3.3.3"
   },
