@@ -22,7 +22,7 @@
     "lowdb": "^1.0.0",
     "node-cache": "^5.1.1",
     "opentracing": "^0.14.4",
-    "winston": "^3.2.1"
+    "winston": "^3.3.3"
   },
   "devDependencies": {
     "chai": "^4.2.0",
