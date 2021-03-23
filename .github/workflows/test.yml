@@ -1,4 +1,8 @@
-on: [pull_request]
+on:
+  pull_request:
+  push:
+    branches:
+      - master
 name: Test
 jobs:
   test:
@@ -20,3 +24,4 @@ jobs:
       with:
           github-token: ${{ secrets.github_token }}
           path-to-lcov: ${{ env.working-directory }}/coverage/lcov.info
+          base-path: ${{ env.working-directory }}
