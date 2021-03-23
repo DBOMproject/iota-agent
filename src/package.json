@@ -20,8 +20,8 @@
     "express-winston": "^4.0.3",
     "jaeger-client": "^3.18.1",
     "lowdb": "^1.0.0",
-    "node-cache": "^5.1.1",
-    "opentracing": "^0.14.4",
+    "node-cache": "^5.1.2",
+    "opentracing": "^0.14.5",
     "winston": "^3.3.3"
   },
   "devDependencies": {
@@ -34,7 +34,7 @@
     "eslint-plugin-import": "^2.22.0",
     "jsdoc": "^3.6.5",
     "minami": "^1.2.3",
-    "mocha": "^8.1.2",
+    "mocha": "^8.3.2",
     "mocha-jenkins-reporter": "^0.4.5",
     "mocha-prepare": "^0.1.0",
     "mocha-prepare-promise": "0.0.2",
