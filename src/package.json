@@ -29,8 +29,8 @@
     "chai-http": "^4.3.0",
     "cross-env": "^7.0.3",
     "decache": "^4.6.0",
-    "eslint": "^7.22.0",
-    "eslint-config-airbnb": "^18.2.0",
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-import": "^2.22.1",
     "jsdoc": "^3.6.5",
     "minami": "^1.2.3",
@@ -39,6 +39,6 @@
     "mocha-prepare": "^0.1.0",
     "mocha-prepare-promise": "0.0.2",
     "nyc": "^15.1.0",
-    "sinon": "^10.0.0"
+    "sinon": "^10.0.1"
   }
 }
