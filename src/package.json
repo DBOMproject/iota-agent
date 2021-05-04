@@ -45,6 +45,7 @@
   "resolutions": {
     "taffydb": "2.7.3",
     "lodash": "4.17.21",
-    "underscore": "1.13.1"
+    "underscore": "1.13.1",
+    "url-parse": "1.5.1"
   }
 }
