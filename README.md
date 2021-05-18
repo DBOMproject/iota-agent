@@ -14,6 +14,7 @@ An example agent that uses IOTA for persisted storage and exposes the CQA (Commi
   - [Supported:](#supported)
   - [Limitations:](#limitations)
     - [A possible solution to deal with these limitations is provided as an example here](#a-possible-solution-to-deal-with-these-limitations-is-provided-as-an-example-here)
+- [Platform Support](#platform-support)
 - [Getting Help](#getting-help)
 - [Getting Involved](#getting-involved)
 
@@ -80,6 +81,10 @@ Given the current implementation of the example agent, there are a few limitatio
 - Cannot share same db file
   - This example agent uses lowdb which is local
     - Option to use a different db with multi-node access controls
+
+## Platform Support
+
+Currently, we provide pre-built container images for linux amd64 and arm64 architectures via our Github Actions Pipeline. Find the images [here](https://hub.docker.com/r/dbomproject/iota-agent)
 
 ## Getting Help
 
