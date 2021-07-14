@@ -40,7 +40,7 @@
     "mocha-prepare": "^0.1.0",
     "mocha-prepare-promise": "0.0.2",
     "nyc": "^15.1.0",
-    "sinon": "^10.0.1"
+    "sinon": "^11.1.1"
   },
   "resolutions": {
     "taffydb": "2.7.3",
