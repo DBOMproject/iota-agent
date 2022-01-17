@@ -48,6 +48,6 @@
     "underscore": "1.13.1",
     "hosted-git-info": "2.8.9",
     "url-parse": "1.5.1",
-    "marked": ">=4.0.10"
+    "marked": "4.0.10"
   }
 }
