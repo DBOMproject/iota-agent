@@ -26,7 +26,7 @@
     "winston": "^3.4.0"
   },
   "devDependencies": {
-    "chai": "^4.3.4",
+    "chai": "^4.3.5",
     "chai-http": "^4.3.0",
     "cross-env": "^7.0.3",
     "decache": "^4.6.1",
